@@ -1,53 +1,69 @@
 version: 1
 project:
-  # id: ubcgif-YEAR-AUTHORS-CONFERENCE
-  # title: TITLE
-  # description: DESCRIPTION
+  id: ubcgif-2025-heagy-etal-iccopt
+  title: "SimPEG: an open-source framework for simulation and parameter estimation in geophysics"
+  description: "Presentation in the session: Recent Advances on PDE-constrained optimization packages and libraries: Part II"
   authors:
-    # - name: AUTHOR 1
-    #   email: EMAIL
-    #   corresponding: true
-    #   orcid: ORCID
-    #   affiliation:
-    #     id: ubc
-    #     name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
-    # - name: Lindsey J. Heagy
-    #   email: lheagy@eoas.ubc.ca
-    #   corresponding: true
-    #   orcid: 0000-0002-1551-5926
-    #   affiliation: ubc
-    # - name: Douglas W. Oldenburg
-    #   affiliation: ubc
-    #   email: doug@eos.ubc.ca
-    #   orcid: 0000-0002-4327-2124
-  # banner: banner.png
+    - name: Lindsey J. Heagy
+      email: lheagy@eoas.ubc.ca
+      corresponding: true
+      orcid: 0000-0002-1551-5926
+      affiliation:
+        id: ubc
+        name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
+    - name: Santiago Soler
+      affiliation: ubc
+      email: ssoler@eos.ubc.ca
+      orcid: 0000-0001-9202-5317
+    - name: Joseph Capriotti
+      orcid: 0000-0003-4762-5377
+      affiliation:
+        name: Department of Geophysics, Colorado School of Mines
+    - name: Devin C. Cowan
+      orcid: 0000-0002-0089-402X
+      affiliation: ubc
+    - name: Dominique Fournier
+      orcid: 0000-0003-3285-3465
+      affiliation:
+        name: Mira Geoscience
+    - name: Seogi Kang
+      orcid: 0000-0002-9963-936X
+      affiliation:
+        name: Department of Earth Sciences, University of Manitoba
+    - name: Rowan Cockett
+      orcid: 0000-0002-7859-8394
+      affiliation:
+        name: Curvenote Inc.
+    - name: Douglas W. Oldenburg
+      affiliation: ubc
+      email: doug@eos.ubc.ca
+      orcid: 0000-0002-4327-2124
+  banner: banner.png
   thumbnail: thumbnail.png
-  # subject: Electromagnetics
+  subject: inversions
   venue:
-    # title: CONFERENCE NAME
-    # url: CONFERENCE URL
-  # license: CC-BY-4.0
-  # open_access: true
+    title: International Conference on Continuous Optimization (ICCOPT) 2025
+    url: https://www.iccopt2025.org/
+  license: CC-BY-4.0
+  open_access: true
   # doi: DOI
-  # date: YYYY-MM-DD
+  date: 2025-07-21
   abbreviations:
     # DC: direct current
     # EM: electromagnetics
   # github:
   # bibliography: []
-  # keywords:
-  #   - Controlled source electromagnetics (CSEM)
-  #   - Downhole methods
-  #   - Numerical modelling
-  #   - Electrical properties
-  #   - Magnetic properties
+  keywords:
+    - Open-source
+    - Inversion
+    - PDE constrained optimization
 site:
   template: article-theme
   actions:
     # - title: pdf
     #   url: ARTICLE-NAME.pdf
     #   static: true
-    # - title: slides
-    #   url: presentation/SLIDES-NAME.pdf
-    #   static: true
+    - title: slides
+      url: Heagy-ICCOPT.pdf
+      static: true
   # domains: []

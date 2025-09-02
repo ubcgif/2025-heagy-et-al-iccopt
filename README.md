@@ -1,2 +1,5 @@
-# template-repository-conference
-template repository for conference proceedings
+# SimPEG: an open-source framework for simulation and parameter estimation in geophysics
+
+**Presentation for ICCOPT 2025**
+
+Geophysical data can provide insights about the subsurface in a range of applications. A few examples include locating critical minerals, monitoring geologic storage of CO2, managing groundwater, and characterizing changes to permafrost. The geophysical inverse problem is posed as a PDE-constrained optimization problem where we aim to fit the observed data and incorporate additional information that may include petrophysical, geologic, and geochemical measurements, as well as additional geophysical data sets. We started the SimPEG project with the aim of accelerating research and education in geophysics and enabling researchers to build upon and contribute to a modular toolbox for solving problems in geophysics. At the core is a framework for finite volume forward simulations and gradient-based inversions. SimPEG currently supports simulation and inversion of gravity, magnetic, electrical and electromagnetic data. In this talk, I will provide an overview of how we have broken down inverse problems in geophysics into modular components and how working in an open-source paradigm has facilitated our research, collaborations with industry, and dissemination of educational resources in classrooms and for humanitarian projects.
